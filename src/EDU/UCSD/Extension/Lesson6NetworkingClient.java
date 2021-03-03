@@ -41,7 +41,7 @@ public class Lesson6NetworkingClient {
                 "",
                 commandName,
                 "{--server <address>} {--port <port>}",
-                "# Connect to the server at <address>, listening on port <port>");
+                "# Connect to the server at <address>, which is listening on port <port>");
     }
 
     public void runSocketTest() throws IOException {
