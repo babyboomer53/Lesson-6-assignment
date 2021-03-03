@@ -1,4 +1,14 @@
 
+X	java:S125w"<This block of commented-out lines of code should be removed.(±¯€¤8ßñò°ÿ.
+D
+java:S2189R""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8§¨À±ÿ.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Ğ…¤Ş8Ìƒ²§ÿ.
+y	java:S127}"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëİ¯˜ûÿÿÿÿ8ßñò°ÿ.
+m	java:S128t"LEnd this switch case with an unconditional break, return or throw statement.(ÿ¶‹ûÿÿÿÿ8ßñò°ÿ.
+H
+java:S1481g"+Remove this unused "option" local variable.(›˜¯Ã8ßñò°ÿ.
+W
+java:S1854k":Remove this useless assignment to local variable "option".(Ç¯à˜8ßñò°ÿ.
+
+java:S1130f"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‚òİœıÿÿÿÿ8£ï¨²ÿ.
+y	java:S127z"XRefactor the code in order to not assign to this loop counter from within the loop body.(˜àËöıÿÿÿÿ8ßñò°ÿ.
