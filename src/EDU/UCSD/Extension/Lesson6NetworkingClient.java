@@ -33,15 +33,15 @@ public class Lesson6NetworkingClient {
 
     public static void syntaxSummary() {
         var commandName = "Lesson6NetworkingClient";
-        System.out.printf("%n%-7s%-24s%-37s%s%n%-7s%-24s%-37s%s%n",
+        System.out.printf("%n%-7s%-24s%-39s%s%n%-7s%-24s%-39s%s%n",
                 "Usage:",
                 commandName,
                 "[--help]",
                 "# Displays this command syntax summary",
                 "",
                 commandName,
-                "{--server <address>} {--port <port>}",
-                "# Connect to the server at <address>, which is listening on port <port>");
+                "{--server <address>} {--port <number>}",
+                "# Connect to the server at <address> on port <number>");
     }
 
     public void runSocketTest() throws IOException {

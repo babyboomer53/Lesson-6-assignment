@@ -28,7 +28,6 @@ class ThreadedEchoHandler implements Runnable {
              var out = new PrintWriter(
                      new OutputStreamWriter(outStream, StandardCharsets.UTF_8),
                      true /* autoFlush */)) {
-
             out.printf("%n%s%n%s%n%n%n%s%n%s%n%s%n%s%n%s%n%s%n",
                     "HTTP/1.0 200 OK",
                     "Content-Type: text/html",
@@ -38,9 +37,8 @@ class ThreadedEchoHandler implements Runnable {
                     "<hl>Java Networking</hl>",
                     "</body>",
                     "</html>");
-
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
         }
     }
 }
