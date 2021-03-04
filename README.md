@@ -19,7 +19,8 @@ The Lesson6NetworkingClient program is invoked as follows:
 ```
 java Lesson6NetworkingClient –-server <address> --port <number>
 ```
-Both the “—server” and the “—port” options are required. The “—server” option must include a string argument containing the address (i.e., URL or IP address) of the device on which the service is located.
+Both the “—server” and the “—port” options are required. The order in which they appear on the command line is irrelevant. The “—server” option must include a string argument 
+containing the address (i.e., URL or IP address) of the device on which the service is located.
 
 The “—port” option must include a number representing the “port” to which the client will try to connect.
 

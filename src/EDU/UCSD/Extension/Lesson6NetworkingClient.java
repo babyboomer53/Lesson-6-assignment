@@ -56,7 +56,7 @@ public class Lesson6NetworkingClient {
 
     @Override
     public String toString() {
-        return String.format("%nObject of: %s%nServer: %s%nPort: %d%n",
+        return String.format("%nInstance of: %s%nServer: %s%nPort: %d%n",
                 this.getClass().getSimpleName(),
                 this.getUrl(),
                 this.getPort());

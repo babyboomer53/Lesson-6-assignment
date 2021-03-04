@@ -92,7 +92,7 @@ public class Lesson6NetworkingServer {
 
     @Override
     public String toString() {
-        return String.format("%nObject of: %s%nPort: %s%n",
+        return String.format("%nInstance of: %s%nPort: %s%n",
                 this.getClass().getSimpleName(),
                 this.getPort());
     }
