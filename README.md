@@ -35,7 +35,7 @@ The Lesson6NetworkingServer program utilizes Java Threads to manage multiple con
 
 ![IMAGE](./Server-II.png)
 
-Every time the client makes a successful connection to the server…
+Every time a client makes a successful connection to the server…
 
 ![IMAGE](./Server.png)
 
