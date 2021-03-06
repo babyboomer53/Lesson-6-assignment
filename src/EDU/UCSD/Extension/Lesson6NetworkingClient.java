@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Lesson6NetworkingClient {
 
@@ -66,7 +68,8 @@ public class Lesson6NetworkingClient {
         String option = null;
         String url = null;
         int port = 0;
-
+        String ipPattern = "^(([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\\.(?!$)|$)){4}$";
+        String urlPattern = "^(https?:\\/\\/)?([\\w\\Q$-_+!*'(),%\\E]+\\.)+(\\w{2,63})(:\\d{1,4})?([\\w\\Q/$-_+!*'(),%\\E]+\\.?[\\w])*\\/?$";
         try {
             option = options[0];
         } catch (IndexOutOfBoundsException indexOutOfBoundsException) {
@@ -82,8 +85,14 @@ public class Lesson6NetworkingClient {
                     System.exit(0);
                     // break;
                 case "--server":
+                    Pattern pattern = Pattern.compile(ipPattern + "|" + urlPattern + "|" + "^localhost$");
                     try {
                         url = options[++index];
+                        Matcher matcher = pattern.matcher(url);
+                        if (!matcher.find()) {
+                            System.err.printf("%n\"%s\" is not a valid address!%n", url);
+                            System.exit(1);
+                        }
                     } catch (ArrayIndexOutOfBoundsException arrayIndexOutOfBoundsException) {
                         // I know! Modifying the control variable from within the loop is a no-no!
                         System.err.printf("%nThe \"%s\" option requires a a URL or IP address argument.%n", options[--index]);

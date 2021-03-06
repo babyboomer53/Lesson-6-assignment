@@ -1,12 +1,19 @@
 
-H
-java:S1481B"+Remove this unused "option" local variable.(›˜¯Ã8‹Úì­ÿ.
-t	java:S127V"XRefactor the code in order to not assign to this loop counter from within the loop body.(êïÜ­8‹Úì­ÿ.
-y	java:S127`"XRefactor the code in order to not assign to this loop counter from within the loop body.(˜àËöýÿÿÿÿ8‹Úì­ÿ.
-y	java:S127c"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëÝ¯˜ûÿÿÿÿ8‹Úì­ÿ.
+y	java:S127t"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëÝ¯˜ûÿÿÿÿ8‹Úì­ÿ.
 W
-java:S1854G":Remove this useless assignment to local variable "option".(Ç¯à˜8‹Úì­ÿ.
-X	java:S125S"<This block of commented-out lines of code should be removed.(±¯€¤8‹Úì­ÿ.
-s	java:S127Y"XRefactor the code in order to not assign to this loop counter from within the loop body.(þ¯ß78‹Úì­ÿ.
+java:S1854R":Remove this useless assignment to local variable "option".(Ç¯à˜8‹Úì­ÿ.
+t	java:S127b"XRefactor the code in order to not assign to this loop counter from within the loop body.(êïÜ­8‹Úì­ÿ.
+t
+java:S3776C"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‚òÝœýÿÿÿÿ8Îäø˜€/
+X	java:S125I"<This block of commented-out lines of code should be removed.(ô˜èä8´´Ýš€/
+H
+java:S1481D"+Remove this unused "option" local variable.(›˜¯Ã8‹Úì­ÿ.
+X	java:S125^"<This block of commented-out lines of code should be removed.(±¯€¤8‹Úì­ÿ.
+G
+java:S5869L"*Remove duplicates in this character class.(ÃÀŸå8¥ôÜš€/
+y	java:S127q"XRefactor the code in order to not assign to this loop counter from within the loop body.(˜àËöýÿÿÿÿ8‹Úì­ÿ.
+m	java:S128["LEnd this switch case with an unconditional break, return or throw statement.(ÿ¶‹ûÿÿÿÿ8‹Úì­ÿ.
+s	java:S127j"XRefactor the code in order to not assign to this loop counter from within the loop body.(þ¯ß78‹Úì­ÿ.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àý§„
-m	java:S128P"LEnd this switch case with an unconditional break, return or throw statement.(ÿ¶‹ûÿÿÿÿ8‹Úì­ÿ.
+L
+java:S5869O"*Remove duplicates in this character class.(å–³ƒøÿÿÿÿ8¥ôÜš€/

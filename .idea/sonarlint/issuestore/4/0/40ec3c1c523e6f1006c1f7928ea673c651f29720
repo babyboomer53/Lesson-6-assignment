@@ -1,14 +1,14 @@
 
-y	java:S127x"XRefactor the code in order to not assign to this loop counter from within the loop body.(˜àËöıÿÿÿÿ8ßñò°ÿ.
-W
-java:S1854i":Remove this useless assignment to local variable "option".(Ç¯à˜8ßñò°ÿ.
-m	java:S128r"LEnd this switch case with an unconditional break, return or throw statement.(ÿ¶‹ûÿÿÿÿ8ßñò°ÿ.
 y	java:S127{"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëİ¯˜ûÿÿÿÿ8ßñò°ÿ.
+m	java:S128r"LEnd this switch case with an unconditional break, return or throw statement.(ÿ¶‹ûÿÿÿÿ8ßñò°ÿ.
 H
 java:S1481e"+Remove this unused "option" local variable.(›˜¯Ã8ßñò°ÿ.
 
 java:S1130d"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‚òİœıÿÿÿÿ8£ï¨²ÿ.
+y	java:S127x"XRefactor the code in order to not assign to this loop counter from within the loop body.(˜àËöıÿÿÿÿ8ßñò°ÿ.
+X	java:S125u"<This block of commented-out lines of code should be removed.(±¯€¤8ßñò°ÿ.
+W
+java:S1854i":Remove this useless assignment to local variable "option".(Ç¯à˜8ßñò°ÿ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
 D
 java:S2189P""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8§¨À±ÿ.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
-X	java:S125u"<This block of commented-out lines of code should be removed.(±¯€¤8ßñò°ÿ.

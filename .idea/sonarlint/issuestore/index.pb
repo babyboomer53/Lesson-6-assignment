@@ -7,3 +7,7 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 G
 Lesson-6-Assignment.iml,c\c\cc7c5381ddb4ff31d2f1feeee60d18de9b912010
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+P
+ src/EDU/UCSD/Extension/Test.java,3\0\30e1eb17a93a4dc53c2e107738a6f8d42098b44d
